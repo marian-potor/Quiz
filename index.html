@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trivia</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="main.js"></script> 
+    <style>
+        input[type=radio] {
+            size: 300%;
+            display:block;
+            clear: both;
+        }
+        #result{
+            padding: 15px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <label for="triviaCategories">Select category</label>
+    <select id="triviaCategories" required></select>
+    <input type="button" value="Start quiz" id="startQuiz">
+    <div id="quizContainer">
+        <ol id="questionList">
+        </ol>
+    </div>
+    <div id="result"></div>
+
+</body>
+</html>
