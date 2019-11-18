@@ -1,2 +1,2 @@
-# quiz
-General knowledge quiz
+# General knowledge quiz
+Created using jQuery
